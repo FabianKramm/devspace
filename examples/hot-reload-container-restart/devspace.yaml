@@ -26,7 +26,8 @@ dev:
   ports:
   - imageName: default
     forward:
-    - port: 8080
+    - port: 8081
+      remotePort: 8080
   sync:
   - imageName: default
     onUpload:
